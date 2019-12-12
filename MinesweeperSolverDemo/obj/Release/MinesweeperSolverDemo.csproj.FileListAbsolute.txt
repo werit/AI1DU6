@@ -1,0 +1,8 @@
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\bin\Release\MinesweeperSolverDemo.exe.config
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\bin\Release\MinesweeperSolverDemo.exe
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\bin\Release\MinesweeperSolverDemo.pdb
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\bin\Release\MinesweeperSolverDemo.Lib.dll
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\bin\Release\MinesweeperSolverDemo.Lib.pdb
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\obj\Release\MinesweeperSolverDemo.csprojResolveAssemblyReference.cache
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\obj\Release\MinesweeperSolverDemo.exe
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo\obj\Release\MinesweeperSolverDemo.pdb
