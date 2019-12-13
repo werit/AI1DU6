@@ -1,0 +1,24 @@
+p=>q and (q or r) and (r<=>q) 
+
+
+v predikatovej logike mame predikaty
+premenne a,b,c
+predikaty unarne: Z(x) je x zelene?
+predikaty binarne on(x,y) je x na y?
+
+Problem: Je rpavda, ze existuje zelena kosticka polozena na nezelenej
+Exist(x,y) on(x,y) && Z(x) && !Z(y)
+do rezolucie pojde negacia, takze: Pre vsetky(x,y) !on(x,y) or !Z(x) or !Z(y)
+Klauzule(vseobecny kvantifikator sa strati...existencny by potreboval skolemizaciu):
+1: Z(a)
+2: !Z(c)
+3: on(a,b)
+4: on(b,c)
+5: !on(x,y) or !Z(x) or Z(y)
+Riesime:
+
+(5+3) 6: !Z(a) or Z(b)
+(6+1) 7: Z(b)
+(5+4) 8: !Z(b) or Z(c) 
+(7+8) 9: Z(c)
+(9+2) 10: prazdna mnozina=> spor a teda povodna formula platila

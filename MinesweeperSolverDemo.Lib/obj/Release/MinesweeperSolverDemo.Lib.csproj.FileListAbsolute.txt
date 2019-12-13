@@ -1,0 +1,6 @@
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo.Lib\bin\Release\MinesweeperSolverDemo.Lib.dll
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo.Lib\bin\Release\MinesweeperSolverDemo.Lib.pdb
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo.Lib\obj\Release\MinesweeperSolverDemo.Lib.Objects.Visualizer.resources
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo.Lib\obj\Release\MinesweeperSolverDemo.Lib.csproj.GenerateResource.Cache
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo.Lib\obj\Release\MinesweeperSolverDemo.Lib.dll
+C:\Users\Ota\Desktop\cviko UI DU\minyZadani\MinesweeperDemo-master\MinesweeperSolverDemo.Lib\obj\Release\MinesweeperSolverDemo.Lib.pdb
