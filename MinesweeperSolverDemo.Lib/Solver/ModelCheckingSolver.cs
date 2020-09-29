@@ -11,6 +11,7 @@ namespace MinesweeperSolverDemo.Lib.Solver
     {
         List<Panel> fringe;
 
+        /* Original
         public override void Deliberate()
         {
 			fringe = this.Board.Panels.Where(p => (!p.IsRevealed && !p.IsFlagged && Board.GetNeighbors(p.X, p.Y).Any(q => q.IsRevealed))).ToList();
@@ -19,6 +20,28 @@ namespace MinesweeperSolverDemo.Lib.Solver
             foreach (var panel in panels)
             {
                 panel.beliefState = searchState.tryMine;
+                // try whether exists model where the panel can have mine
+                if (!isThereAModel(panel))
+                {
+                    Board.RevealPanel(panel.X,panel.Y);
+                    return;
+                }
+                panel.beliefState = searchState.notDecided;
+            }
+            
+
+            base.Deliberate();
+        }*/
+        
+        public override void Deliberate()
+        {
+            fringe = this.Board.Panels.Where(p => (!p.IsRevealed && !p.IsFlagged && Board.GetNeighbors(p.X, p.Y).Any(q => q.IsRevealed))).ToList();
+            //TODO continue
+            var panels = fringe.Take(5);
+            foreach (var panel in panels)
+            {
+                panel.beliefState = searchState.tryMine;
+                // try whether exists model where the panel can have mine
                 if (!isThereAModel(panel))
                 {
                     Board.RevealPanel(panel.X,panel.Y);
