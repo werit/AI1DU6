@@ -1,6 +1,7 @@
 ﻿using MinesweeperSolverDemo.Lib.Objects;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,6 +57,8 @@ namespace MinesweeperSolverDemo.Lib.Solver
             Random rand = new Random();
             List<BoardStats> stats = new List<BoardStats>();
             Console.WriteLine("Solving Games...");
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
             for(int i = 0; i < BoardsCount; i++)
             {
                 GameBoard board = new GameBoard(BoardWidth, BoardHeight, MinesCount);
@@ -73,7 +76,11 @@ namespace MinesweeperSolverDemo.Lib.Solver
                     GamesFailed++;
                 }
             }
-
+            stopWatch.Stop();
+            // Get the elapsed time as a TimeSpan value.
+            var ts = stopWatch.Elapsed;
+            var elapsedTime = $"{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}.{ts.Milliseconds / 10:00}";
+            Console.WriteLine("Elapsed Time: " + elapsedTime);
             Console.WriteLine("Games Completed: " + GamesCompleted.ToString());
             Console.WriteLine("Games Failed: " + GamesFailed.ToString());
 

@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CnfConverter\LogicalTree\AndNode.cs" />
+    <Compile Include="CnfConverter\LogicalTree\ImpliesNode.cs" />
+    <Compile Include="CnfConverter\LogicalTree\LogicalNode.cs" />
+    <Compile Include="CnfConverter\LogicalTree\LogicalTree.cs" />
+    <Compile Include="CnfConverter\LogicalTree\OrNode.cs" />
+    <Compile Include="CnfConverter\LogicalTree\ValueNode.cs" />
     <Compile Include="Enums\GameStatus.cs" />
     <Compile Include="Objects\BoardStats.cs" />
     <Compile Include="Objects\GameBoard.cs" />
@@ -55,6 +61,8 @@
       <DependentUpon>Visualizer.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solver\CnfConvertor.cs" />
+    <Compile Include="Solver\CnfSolveService.cs" />
     <Compile Include="Solver\GameSolver.cs" />
     <Compile Include="Solver\ModelCheckingSolver.cs" />
     <Compile Include="Solver\MultiGameSolver.cs" />
